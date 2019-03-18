@@ -1,0 +1,10 @@
+到现在该spring boot 已经集成了 该项目来自传智播客是demo
+spring boot+springData jpa+mybatis+redis+junit+热部署工具+devtools
+注意遇到的问题
+1  引导类应该包含其它，这样才能扫描到注解
+2  spring data jpa 继承repository 应该确定类型因为其为泛型类。
+3  引入redis要加入合适的版本号
+4  通用mapper要高于默认版本号否则会报没有这种方法异常。
+5  通用mapper接口也是泛型需要指定相应的bean类
+后续会加上
+duboo+zookeper+activeMq（java消息队列）
